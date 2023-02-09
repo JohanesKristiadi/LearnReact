@@ -1,4 +1,5 @@
 import React from "react"
+import "../components/styles/App.css"
 // import Header from "./Header";
 // import List from "./List"
 // import Button from "./Button"
@@ -26,7 +27,7 @@ class App extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className="box">
                 {/* <Header/>
                 <List/>
                 <h1>hello World</h1> */}
